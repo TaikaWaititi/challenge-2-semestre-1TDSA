@@ -5,6 +5,14 @@ const Contato: React.FC = () => {
   const [phone, setPhone] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState('')
+}
+
+const Contato: React.FC = () => {
+  const [name, setName] = useState('')
+  const [phone, setPhone] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
   const [submitted, setSubmitted] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
