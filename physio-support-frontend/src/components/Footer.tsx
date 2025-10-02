@@ -1,5 +1,5 @@
-import React from 'react'
 
+import React from 'react'
 const Footer: React.FC = () => {
   return (
     <footer className="bg-hospital-blue text-hospital-cyan">
@@ -11,3 +11,5 @@ const Footer: React.FC = () => {
 }
 
 export default Footer
+
+
